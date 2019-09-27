@@ -16,6 +16,7 @@
 		A2DA14D4233E013A000E41F6 /* SwiftUI_P1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DA14D3233E013A000E41F6 /* SwiftUI_P1Tests.swift */; };
 		A2DA14DF233E013A000E41F6 /* SwiftUI_P1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DA14DE233E013A000E41F6 /* SwiftUI_P1UITests.swift */; };
 		A2DA14ED233E089C000E41F6 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DA14EC233E089C000E41F6 /* CircleImage.swift */; };
+		A2DA14EF233E1641000E41F6 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DA14EE233E1641000E41F6 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		A2DA14DE233E013A000E41F6 /* SwiftUI_P1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_P1UITests.swift; sourceTree = "<group>"; };
 		A2DA14E0233E013A000E41F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A2DA14EC233E089C000E41F6 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		A2DA14EE233E1641000E41F6 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				A2DA14BE233E0139000E41F6 /* SceneDelegate.swift */,
 				A2DA14C0233E0139000E41F6 /* ContentView.swift */,
 				A2DA14EC233E089C000E41F6 /* CircleImage.swift */,
+				A2DA14EE233E1641000E41F6 /* MapView.swift */,
 				A2DA14C2233E013A000E41F6 /* Assets.xcassets */,
 				A2DA14C7233E013A000E41F6 /* LaunchScreen.storyboard */,
 				A2DA14CA233E013A000E41F6 /* Info.plist */,
@@ -272,6 +275,7 @@
 			files = (
 				A2DA14BD233E0139000E41F6 /* AppDelegate.swift in Sources */,
 				A2DA14ED233E089C000E41F6 /* CircleImage.swift in Sources */,
+				A2DA14EF233E1641000E41F6 /* MapView.swift in Sources */,
 				A2DA14BF233E0139000E41F6 /* SceneDelegate.swift in Sources */,
 				A2DA14C1233E0139000E41F6 /* ContentView.swift in Sources */,
 			);
