@@ -10,8 +10,8 @@ import SwiftUI
 import CoreLocation
 
 
-/// 模型
-struct Landmark: Hashable, Codable {
+/// 地标模型 需要注意的是如果该模型要在列表中使用需要遵从 Identifiable 协议
+struct Landmark: Hashable, Codable, Identifiable {
 	
 	var id: Int
 	var name: String
@@ -36,12 +36,15 @@ struct Landmark: Hashable, Codable {
 }
 
 
-//extension Landmark {
-//    var image: Image {
-//        ImageStore.shared.image(name: imageName)
-//    }
-//}
+extension Landmark {
+	
+	/// 获取 image 扩展
+    var image: Image {
+        ImageStore.shared.image(name: imageName)
+    }
+}
 
+/// 位置模型
 struct Coordinates: Hashable, Codable {
     var latitude: Double
     var longitude: Double

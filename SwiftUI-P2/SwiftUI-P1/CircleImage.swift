@@ -9,9 +9,12 @@
 import SwiftUI
 
 struct CircleImage: View {
+	
+	var image: Image
+	
     var body: some View {
 		// 声明一个 image
-		Image("turtlerock")
+		image
 		// 设置裁剪方式为圆形
 			.clipShape(Circle())
 			// 设置一个宽度为4的白色边框
@@ -23,6 +26,6 @@ struct CircleImage: View {
 
 struct CircleImage_Previews: PreviewProvider {
     static var previews: some View {
-        CircleImage()
+        CircleImage(image: Image("turtlerock"))
     }
 }
