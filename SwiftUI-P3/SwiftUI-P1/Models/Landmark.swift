@@ -22,12 +22,14 @@ struct Landmark: Hashable, Codable, Identifiable {
     var category: Category
 	var isFavorite: Bool
 	
+	/// 经纬度
 	var locationCoordinate: CLLocationCoordinate2D {
         CLLocationCoordinate2D(
             latitude: coordinates.latitude,
             longitude: coordinates.longitude)
     }
-
+	
+	/// 地理位置类型
     enum Category: String, CaseIterable, Codable, Hashable {
         case featured = "Featured"
         case lakes = "Lakes"

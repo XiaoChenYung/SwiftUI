@@ -36,6 +36,7 @@ struct LandmarkDetail: View {
 					// 设置一个 font 为 subheadline 的详情
 					Text(landmark.park)
 						.font(.subheadline)
+						.foregroundColor(Color.red)
 					Spacer()
 					// 设置一个 font 为 subheadline 的详情
 					Text(landmark.state)

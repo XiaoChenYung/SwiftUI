@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A2C5FDEC234DB91400B201D5 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C5FDEB234DB91400B201D5 /* SwiftUIView.swift */; };
+		A2C5FDEE234DC09C00B201D5 /* Some.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C5FDED234DC09C00B201D5 /* Some.swift */; };
 		A2DA14BD233E0139000E41F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DA14BC233E0139000E41F6 /* AppDelegate.swift */; };
 		A2DA14BF233E0139000E41F6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DA14BE233E0139000E41F6 /* SceneDelegate.swift */; };
 		A2DA14C1233E0139000E41F6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DA14C0233E0139000E41F6 /* ContentView.swift */; };
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A2C5FDEB234DB91400B201D5 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		A2C5FDED234DC09C00B201D5 /* Some.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Some.swift; sourceTree = "<group>"; };
 		A2DA14B9233E0139000E41F6 /* SwiftUI-P1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-P1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2DA14BC233E0139000E41F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2DA14BE233E0139000E41F6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -107,6 +111,8 @@
 				A2DA14BE233E0139000E41F6 /* SceneDelegate.swift */,
 				A2DA14C0233E0139000E41F6 /* ContentView.swift */,
 				A2DA14EC233E089C000E41F6 /* CircleImage.swift */,
+				A2C5FDEB234DB91400B201D5 /* SwiftUIView.swift */,
+				A2C5FDED234DC09C00B201D5 /* Some.swift */,
 				A2DA14EE233E1641000E41F6 /* MapView.swift */,
 				A2DA14C2233E013A000E41F6 /* Assets.xcassets */,
 				A2DA14C7233E013A000E41F6 /* LaunchScreen.storyboard */,
@@ -273,8 +279,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2C5FDEE234DC09C00B201D5 /* Some.swift in Sources */,
 				A2DA14BD233E0139000E41F6 /* AppDelegate.swift in Sources */,
 				A2DA14ED233E089C000E41F6 /* CircleImage.swift in Sources */,
+				A2C5FDEC234DB91400B201D5 /* SwiftUIView.swift in Sources */,
 				A2DA14EF233E1641000E41F6 /* MapView.swift in Sources */,
 				A2DA14BF233E0139000E41F6 /* SceneDelegate.swift in Sources */,
 				A2DA14C1233E0139000E41F6 /* ContentView.swift in Sources */,
